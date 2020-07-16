@@ -12,7 +12,7 @@
 
 # Installation
 
-1. Clone this repository `git clone`
+1. Clone this repository `git clone https://github.com/AndersDeath/owl-react-starter.git` or `git clone git@github.com:AndersDeath/owl-react-starter.git`
 2. Install dependencies `npm install` or `yarn`
 3. Run `npm start` or `yarn start`
 
