@@ -5,10 +5,13 @@
 ## What are inside?
 
 - React
+- Redux
 - Webpack
 - Typescript
 - Sass
 - PostCss
+- Storybook
+- Typedoc
 
 # Installation
 
