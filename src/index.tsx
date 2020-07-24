@@ -1,11 +1,17 @@
 import * as React from "react";
 import * as ReactDOM from "react-dom";
+import * as ReactRedux from "react-redux";
 
 import './index.scss';
 
-import { Hello } from "./components/Hello";
+import { App } from "@components/app";
+import { store } from './state/index';
+
+const Provider = ReactRedux.Provider;
 
 ReactDOM.render(
-    <Hello name="Owl" author="AndersDeath" />,
+    <Provider store={store}>
+        <App />
+    </Provider>,
     document.getElementById("app")
 );

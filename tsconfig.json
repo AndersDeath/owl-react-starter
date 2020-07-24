@@ -14,10 +14,17 @@
         "jsx": "react",
         "allowJs": true,
         "baseUrl": "./",
+        "moduleResolution": "node",
         "paths": {
-            "components/*": [
-                "src/components/*"
+            "@components/*": [
+                "./src/components/*"
+            ],
+            "@state/*": [
+                "./src/state/*"
             ],
         }
-    }
+    },
+    "include": [
+        "src/**/*"
+    ]
 }

@@ -8,7 +8,11 @@ module.exports = {
     devtool: "source-map",
     entry: { home: ['./src/index.tsx', './src/index.scss'], },
     resolve: {
-        extensions: [".ts", ".tsx", ".js", ".scss"]
+        extensions: [".ts", ".tsx", ".js", ".scss"],
+        alias: {
+            '@components': path.resolve(__dirname, './src/components'),
+            '@state': path.resolve(__dirname, './src/state'),
+        }
     },
     output: {
         path: path.join(__dirname, '/dist'),
